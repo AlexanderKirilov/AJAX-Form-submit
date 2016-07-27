@@ -33,7 +33,7 @@
 			event.preventDefault();
 			
 			console.log(getData());
-
+			//3
 			Ajax.request('POST', 'handle.php', true, function (response){
 				response = JSON.parse(response);
 				document.getElementById('container').innerHTML = '<h1>' + response + '</h1>';
